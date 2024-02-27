@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        form{
+            text-align: center;
+            border: 2px solid slategrey;
+            padding: 2px;
+            margin: 3px;
+             
+        }
+        label{
+            text-align: center;
+            color: rgb(251, 251, 252);
+        }
+        body{
+            background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=pexels-pixabay-36717.jpg&fm=jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        input[type="text"],[type="number"],[type="date"]
+        {
+            color: rgb(12, 12, 12);
+            width: 100px;
+            height: 50px;
+            
+        }
+        
+   </style>
+    <form>
+        <label>Name: <br><br><input type="text" height="40px" width="40px"></label><br><br>
+        <label for="DOB">DOB: <br><br></label>
+        <input id="DOB" type="date"><br><br>
+        <label>Address: <br><br><input type="text"></label><br><br>
+        <label>Gender: </label><br><br>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female<br><br>
+        <label>Subject: </label>
+        <input type="checkbox" name="subject" value="Maths">Maths
+        <input type="checkbox" name="subject" value="English">English
+        <input type="checkbox" name="subject" value="Physics">Physics
+        <input type="checkbox" name="subject" value="Chemistry">Chemistry<br><br>
+        <label>Roll no: <input type="number"></label><br><br>
+        <label>Contact no: <input type="tel"></label><br><br>
+        <input type="submit" value="Submit" style="background-color: aquamarine;">
+    </form>
+</body>
+</html>
